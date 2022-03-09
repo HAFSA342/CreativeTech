@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     border: none;
@@ -78,7 +78,7 @@ p{
     color: #fff
 }
 /* .home-banner{} */
-.home-banner p {
+/* .home-banner p {
     font-size: 2rem;
     line-height: 3.2rem;
     color: #fff;
@@ -110,6 +110,56 @@ button .btn{
     padding: 12px 20px;
     margin-top: 20px;
     background-color: #fff;
+} */
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 800;
+}
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 600;
+}
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 32, 61, 0.7);
+    z-index: -1;
+}
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+.btn{
+    padding: 14px 22px;
+    transition: all 0.4s ease;
+}
+.btn-main{
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+}
+.btn:hover{
+    transform: translateY(-4px);
 }
 
 
