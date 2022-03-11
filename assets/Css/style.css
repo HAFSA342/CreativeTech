@@ -114,10 +114,13 @@ button .btn{
 h1,h2,h3,h4,h5,h6 {
     font-weight: 800;
 }
+h1{
+    color: #4cceff;
+}
 a {
     text-decoration: none;
     transition: all 0.4s ease;
-    font-weight: 600;
+    font-weight: 60;
 }
 section {
     padding-top: 80px;
@@ -161,8 +164,51 @@ section {
 .btn:hover{
     transform: translateY(-4px);
 }
-
-
+/* ANEYYYY */
+body {
+    background-color: #081321;
+  }
+  .bgcolor {
+    height: 1800px;
+  }
+  h2 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: #fff;
+  }
+  .heading2-color {
+    color: #4cceff;
+  }
+  .sub-title {
+    font-size: 16px;
+    color: #fff;
+  }
+  .container h5 {
+    font-weight: 600;
+    color: #fff;
+  }
+  .container p {
+    color: #fff;
+  }
+  .card {
+    background-color: #1a528a;
+    display: flex;
+    align-items: center;
+    /* height: 350px; */
+  }
+  .card .brdrRadius {
+    width: 80px;
+    border-radius: 50%;
+  }
+  .card:hover {
+    background-color: #fff;
+  }
+  .card:hover p {
+    color: black;
+  }
+  .card:hover h5 {
+    color: black;
+  }
 @media (min-width:1170px) and (max-width: 1281px) { }
 
 @media (min-width:1000px) and (max-width: 1169px) { }
