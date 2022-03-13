@@ -1,4 +1,4 @@
-/* * {
+{
     margin: 0;
     padding: 0;
     border: none;
@@ -51,17 +51,6 @@ li {
     color: #000
 }
 
-h1{
-    font-size: 4.5rem;
-    line-height: 5rem;
-    font-family: product_sansregular,sans-serif;
-}
-h2{
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-    margin: 0 0 2rem;
-    font-family: product_sansregular,sans-serif;
-}
 .section-dark h2 {
     color: #fff
 }
@@ -69,24 +58,10 @@ h2{
     color: #4cceff;
 }
 
-p{
-    font-size: 1.8rem;
-    line-height: 2.8rem;
-    font-family: robotoregular,sans-serif;
-}
 .section-dark p {
     color: #fff
 }
-/* .home-banner{} */
-/* .home-banner p {
-    font-size: 2rem;
-    line-height: 3.2rem;
-    color: #fff;
-    font-family: robotolight;
-}
-.home-banner h1 {
-    color: #4cceff;
-}
+.home-banner{}
 button .btn{
     font-family: robotoregular;
 
@@ -110,7 +85,7 @@ button .btn{
     padding: 12px 20px;
     margin-top: 20px;
     background-color: #fff;
-} */
+}
 h1,h2,h3,h4,h5,h6 {
     font-weight: 800;
 }
@@ -164,44 +139,40 @@ section {
 .btn:hover{
     transform: translateY(-4px);
 }
-/* ANEYYYY */
 body {
     background-color: #081321;
-  }
-  .bgcolor {
-    height: 1800px;
-  }
-  h2 {
-    font-size: 2.2rem;
-    line-height: 3rem;
-    color: #fff;
-  }
-  .heading2-color {
+}
+
+
+/* Aney */
+
+.heading2-color {
     color: #4cceff;
   }
   .sub-title {
-    font-size: 16px;
     color: #fff;
   }
-  .container h5 {
+  .card-body h5 {
     font-weight: 600;
     color: #fff;
   }
-  .container p {
+  .row p {
     color: #fff;
   }
   .card {
-    background-color: #1a528a;
+    background-color: #0b1d33;
     display: flex;
     align-items: center;
-    /* height: 350px; */
   }
   .card .brdrRadius {
     width: 80px;
     border-radius: 50%;
   }
+  .second-page {
+    width: 90%;
+  }
   .card:hover {
-    background-color: #fff;
+    background-color: #fff !important;
   }
   .card:hover p {
     color: black;
@@ -209,6 +180,64 @@ body {
   .card:hover h5 {
     color: black;
   }
+  .second-page ul {
+    list-style-type: none;
+  }
+  .second-page ul li {
+    padding: 20px;
+  }
+  .second-page ul li p {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: -5px;
+  }
+  .custom-container .card {
+    margin-bottom: 30px;
+    background-color: #0b1d33;
+    padding: 25px;
+    border-radius: 0 20px 20px 20px;
+  }
+  .part2 img {
+    height: auto;
+    max-width: 30.3vw;
+    width: 100%;
+  }
+  .second-page ul li{
+    display: inline-block;
+  }
+  .row li {
+    padding: 10px;
+    display: inline-block;
+  }
+  .custom-container ul {
+    margin: 64px 0 0;
+  }
+  
+  .custom-container ul li span img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  .pad-In-Carousel {
+    text-align: left;
+    width: 80%;
+  }
+  .carousel-item .carousel-caption,
+  .carousel-item img {
+    position: relative !important;
+  }
+  .carousel-image-container {
+    min-height: 488px;
+  }
+  .carousel-image-container img {
+    height: 100%;
+    object-fit: contain;
+  }
+  .border-img img {
+    width: 100%;
+  }
+
+
 @media (min-width:1170px) and (max-width: 1281px) { }
 
 @media (min-width:1000px) and (max-width: 1169px) { }
