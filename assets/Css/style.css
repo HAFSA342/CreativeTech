@@ -65,8 +65,7 @@ li {
 .section-dark p {
   color: #fff;
 }
-.home-banner {
-}
+
 button .btn {
   font-family: robotoregular;
 }
@@ -155,7 +154,57 @@ body {
 }
 
 /* Aney */
-
+.nav-bg-color {
+  background-color: transparent;
+  width: 100%;
+  z-index: 10;
+}
+.navbar-brand {
+  color: #fff !important;
+}
+.nav-link {
+  color: white !important;
+}
+.nav-item .menu {
+  display: none;
+}
+.nav-style {
+  background-color: white !important;
+}
+.nav-style .nav-item,
+.nav-style .navbar-brand {
+  filter: invert(1);
+}
+.nav-item img {
+  width: 16px;
+}
+.nav-item:hover .menu {
+  display: flex;
+}
+.nav-link:hover {
+  color: #4cceff !important;
+  border-bottom: 2px solid #4cceff;
+}
+.nav-item:hover .tick {
+  display: none;
+}
+.nav-item:hover .cross {
+  display: inline-block;
+}
+.nav-item .cross {
+  display: none;
+}
+.menu {
+  top: 58px;
+  left: 0;
+  width: 250px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.menu.full {
+  width: 100vw;
+}
+/* ***-----------*** */
 .heading2-color {
   color: #4cceff;
 }
@@ -167,7 +216,8 @@ body {
   font-weight: 600;
   color: #fff;
 }
-.row p , h2 {
+.row p,
+h2 {
   color: #fff;
 }
 .card {
