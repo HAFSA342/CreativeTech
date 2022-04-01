@@ -201,6 +201,12 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+.menu ul li{
+  cursor: pointer;
+}
+.menu ul li:hover{
+  color: #0645AD ;
+}
 .menu.full {
   width: 100vw;
 }
